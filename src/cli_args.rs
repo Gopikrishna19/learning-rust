@@ -6,7 +6,7 @@ pub fn run() {
     if args.len() > 2 {
         let command = args[1].clone(); // cannot move, so use clone
         match command {
-            hello => println!("Hello there!"),
+            _hello => println!("Hello there!"),
         }
     }
 }
